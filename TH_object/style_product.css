@@ -1,0 +1,28 @@
+.container {
+    width: 1024px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+.add-product{
+    width: 40%;
+    float: left;
+
+}
+.list-product{
+    width: 60%;
+    float: left;
+}
+.table-list-product{
+    width: 90%;
+    border-collapse: collapse;
+}
+.table-list-product tr,th,td{
+    border: 1px solid red;
+    text-align: center;
+}
+.table-add-product{
+    border: 1px solid red;
+    text-align: center;
+border-collapse: collapse;
+}

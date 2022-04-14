@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas</title>
+</head>
+<body>
+<canvas id="myCanvas" width="700" height="500" style="background-color: aqua"></canvas>
+<script>
+    let paper=document .getElementById("myCanvas");// ve duong tron
+    let pen=paper.getContext("2d");
+    pen.beginPath();
+    pen.arc(95,50,40,0,2*Math.PI);
+    pen.
+    pen.stroke();
+
+
+    let pen2=paper.getContext("2d"); // ve duong thang
+    pen2. moveTo(80,90);
+    pen2.lineTo(200,400);
+    pen2.stroke();
+
+    let pen3=paper.getContext('2d');// ve chu
+    pen3.font="50px";
+    pen3.fillText("Hong91",30,20);
+    pen3.addColorStop(12,"pink");
+
+
+</script>
+
+</body>
+</html>
